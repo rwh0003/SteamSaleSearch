@@ -14,15 +14,7 @@
         @endif
 
         <div class="content">
-        @unless ($developers)
-            There are no developers! Aw!
-        @endunless
-
-            <ul>
-            @foreach ($developers as $dev)
-                <li>{{ $dev }}</li>
-            @endforeach
-            </ul>
+            <h1>About Page</h1>
         </div>
     </div>
 @stop
